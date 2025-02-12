@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+
+        <!-- Notification Heading -->
+        <TextView
+            android:id="@+id/tv_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Order Notification"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp" />
+
+        <!-- Notification Content -->
+        <TextView
+            android:id="@+id/tv_notification_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Design: Design Name\nCustomer: Customer Name"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tv_heading"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp" />
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/tv_notification_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: 24-4-2023"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tv_notification_content"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp" />
+
+        <!-- Time -->
+        <TextView
+            android:id="@+id/tv_notification_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: 12:26"
+            android:textColor="@color/black"
+            android:layout_below="@id/tv_notification_date"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp" />
+        <!-- Confirm Button -->
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@id/tv_notification_time"
+            android:layout_marginTop="10dp"
+            android:text="Confirm"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/white"
+            android:visibility="gone"/> <!-- Initially Hidden -->
+
+        <!-- Decline Button -->
+        <Button
+            android:id="@+id/btn_decline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/btn_confirm"
+            android:layout_below="@id/tv_notification_time"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Decline"
+            android:backgroundTint="@color/gnt_red"
+            android:textColor="@color/white"
+            android:visibility="gone"/> <!-- Initially Hidden -->
+
+        <!-- Complete Order Button -->
+        <Button
+            android:id="@+id/btn_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_notification_time"
+            android:layout_marginTop="10dp"
+            android:text="Complete Order"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            android:visibility="gone"/> <!-- Initially Hidden -->
+
+        <!-- Close Order Button -->
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_notification_time"
+            android:layout_marginTop="10dp"
+            android:text="Close Order"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:visibility="gone"/> <!-- Initially Hidden -->
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
