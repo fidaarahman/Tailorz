@@ -1,30 +1,5 @@
 ﻿# Tailorz
-# Tailorz
-Tailorz is a feature-rich Android application designed to bridge the gap between customers and tailors. The app provides an intuitive and efficient platform where customers can browse, chat, and connect with tailors, while tailors can manage their clients and services effortlessly.
-
-Key Features
-Customer Features
-Explore professional tailors with detailed profiles.
-Start real-time chats with tailors for custom tailoring requests.
-View tailor details in a dedicated profile screen.
-Tailor Features
-Manage customer interactions through an organized customer list.
-Receive and respond to chat messages.
-Display a professional profile with images and categories.
-Seamless Communication
-Integrated chat system for direct messaging between customers and tailors.
-Firebase-powered real-time chat to ensure smooth interaction.
-User-Friendly Interface
-Modern UI/UX design with View Binding for better efficiency.
-Glide image loading for high-performance profile displays.
-Firebase Integration
-Real-time database management for tailors and customers.
-Secure authentication and data handling.
-Tech Stack
-Programming Language: Java (Android)
-Database: Firebase Realtime Database
-UI/UX: XML, ConstraintLayout, View Binding
-Libraries Used: Glide, Firebase SDK
+Tailorz is a feature-rich Android application designed to bridge the gap between customers and tailors, offering an intuitive and efficient platform where customers can browse, chat, and connect with tailors, while tailors can seamlessly manage their clients and services. Customers can explore professional tailors with detailed profiles, start real-time chats for custom tailoring requests, and view tailor details in a dedicated profile screen. Tailors can efficiently manage customer interactions through an organized customer list, receive and respond to chat messages, and showcase their professional profiles with images and categories. The app integrates a real-time chat system powered by Firebase, enabling seamless communication between customers and tailors. It features a modern UI/UX design with View Binding for better efficiency and utilizes Glide for high-performance profile image loading. With Firebase integration, the app ensures real-time database management, secure authentication, and efficient data handling. Built using Java for Android, it leverages Firebase Realtime Database for backend operations and follows a structured UI/UX approach using XML, ConstraintLayout, and View Binding, along with essential libraries such as Glide and Firebase SDK.
 here are the some picute of the project
 ![Image](https://github.com/user-attachments/assets/06aad7be-a275-4181-b3ff-f8a8e40b5ffa)
 
